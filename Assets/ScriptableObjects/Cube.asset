@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e115bae286d4f24bb426b2e0021327f, type: 3}
+  m_Name: Cube
+  m_EditorClassIdentifier: 
+  _name: Cube
+  _description: Cube
+  _algorithms:
+  - rid: 6499341487520874498
+  - rid: 6499341487520874499
+  _algorithm:
+    rid: 7689215821990854657
+  references:
+    version: 2
+    RefIds:
+    - rid: 6499341487520874498
+      type: {class: Cut, ns: , asm: Assembly-CSharp}
+      data: 
+    - rid: 6499341487520874499
+      type: {class: Decompose, ns: , asm: Assembly-CSharp}
+      data: 
+    - rid: 7689215821990854657
+      type: {class: ChangeColor, ns: , asm: Assembly-CSharp}
+      data: 
